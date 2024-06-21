@@ -1,0 +1,95 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import './typograph.css';
+
+:root {
+  font-family: Poppins, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #111204;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+@media screen and (max-width: 1024px) {
+  html {
+    font-size: 90%;
+  }
+  br {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  html {
+    font-size: 70%;
+  }
+}
+
+.monoFonting {
+  font-family: Roboto Mono !important;
+}
+
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+}
+
+.highlightText b {
+  color: #00d763;
+}
+
+.swiper-free-mode > .swiper-wrapper {
+  transition-timing-function: linear !important;
+}
+
+.posts .swiper-pagination-bullet {
+  width: 60px !important;
+  height: 9px !important;
+  border-radius: 0px !important;
+  background-color: #1a1e23 !important;
+  opacity: 1 !important;
+  transition: ease all 0.2s;
+}
+.posts .swiper-pagination-bullet-active {
+  width: 240px !important;
+  background-color: #00d763 !important;
+}
+
+.posts .swiper-wrapper {
+  padding-bottom: 60px;
+}
+
+.posts .swiper-pagination {
+  bottom: 0px !important;
+}
+
+@media screen and (max-width: 768px) {
+  .posts .swiper-pagination-bullet-active {
+    width: 60px !important;
+  }
+}
