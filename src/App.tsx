@@ -1,4 +1,3 @@
-import { useState } from 'react';
 import './app/styles/App.css';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import HomePage from './pages/home/Home';

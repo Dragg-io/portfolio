@@ -13,7 +13,7 @@ import List from '../../modules/List/List';
 import Experience from '../../modules/Experience/Experience';
 import Background from '../../modules/Background/Background';
 import Skills from '../../modules/Skills/Skills';
-import { useAllPrismicDocumentsByType, useFirstPrismicDocument, useSinglePrismicDocument } from '@prismicio/react';
+import { useAllPrismicDocumentsByType, useSinglePrismicDocument } from '@prismicio/react';
 
 const Home: React.FC = () => {
 
