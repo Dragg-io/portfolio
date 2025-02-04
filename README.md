@@ -48,7 +48,6 @@ O projeto estará disponível em [http://localhost:3000](http://localhost:3000).
 Aqui está uma visão geral da estrutura do projeto:
 
 ```
-seu-portfolio/
 ├── public/       # Arquivos estáticos (imagens, favicon, etc.)
 ├── src/
 │   ├── app/      # Arquivos do projeto
