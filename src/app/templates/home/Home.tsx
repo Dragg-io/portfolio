@@ -39,7 +39,7 @@ const Home: React.FC = () => {
     </section>
     <BrandBelt brands={brands} />
     <section className='posts mx-auto mt-[90px] max-w-[1530px] w-[95%]' id='publicacoes'>
-      <Title><h2>publicacões</h2></Title>
+      <Title><h2>publicações</h2></Title>
       <div className='mt-[60px]'>
         <Swiper
           slidesPerView={1}

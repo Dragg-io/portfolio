@@ -30,7 +30,7 @@ const Footer: React.FC = () => {
       </div>
     </div>
     <footer className='w-full h-[76px] bg-b1 flex items-center pl-[calc((100%-1530px)/2)]'>
-      <p className='text-w1 text-sm font-bold font-[Roboto] tablet:px-10'>
+      <p className='text-w1 text-sm font-bold tablet:px-10'>
         © 2024 Draggio. Todos os direitos reservados.
       </p>
     </footer>
