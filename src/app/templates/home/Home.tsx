@@ -14,6 +14,7 @@ import Experience from '../../modules/Experience/Experience';
 import Background from '../../modules/Background/Background';
 import Skills from '../../modules/Skills/Skills';
 import { useAllPrismicDocumentsByType, useSinglePrismicDocument } from '@prismicio/react';
+import sortByPeriod from '../../Utils/SortByPeriod';
 
 const Home: React.FC = () => {
 
@@ -22,8 +23,6 @@ const Home: React.FC = () => {
   const [posts] = useAllPrismicDocumentsByType('posts');
   const [background] = useAllPrismicDocumentsByType('background');
   const [experience] = useAllPrismicDocumentsByType('experience');
-
-  console.log(experience, background);
 
   return <main>
     <section className='h-[calc(100vh-119px)] w-full flex flex-col justify-center items-center'>
@@ -34,7 +33,9 @@ const Home: React.FC = () => {
       <p className='text-w1 text-7xl text-center font-extrabold leading-tight highlightText mt-5 tablet:text-5xl tablet:max-w-[800px] tablet:leading-snug'>Se você deseja discutir um <b>projeto</b> ou<br /> apenas <b>trocar ideias</b>, sinta-se à <br />vontade para entrar em contato<b>.</b></p>
       <p className='mt-5 text-center font-light text-3xl text-w2 tablet:text-2xl'>Há sete anos transformando ideias em experiências digitais excepcionais</p>
       <div className='flex justify-center mt-16'>
-        <Button type="outlined" weight='light'>Contato <ArrowUpRight size={24} /></Button>
+        <a target='_blank' href="https://wa.me/5511981419758">
+          <Button type="outlined" weight='light'>Contato <ArrowUpRight size={24} /></Button>
+        </a>
       </div>
     </section>
     <BrandBelt brands={brands} />
@@ -96,7 +97,7 @@ const Home: React.FC = () => {
       <Title>currículo</Title>
       <div className='w-full flex gap-[160px] tablet:flex-col tablet:gap-[10px]'>
         <div>
-          <List ItemComponnet={Experience} data={experience} title="EXPERIÊNCIA" />
+          <List ItemComponnet={Experience} data={sortByPeriod(experience)} title="EXPERIÊNCIA" />
         </div>
         <div className='mobile:!flex-col mobile:!w-full tablet:flex-row-reverse tablet:flex tablet:w-[fit-content]'>
           <div className='mobile:!w-full tablet:w-[50%]'>

@@ -16,7 +16,9 @@ const Header: React.FC = () => {
         </ul>
       </nav>
       <div className='z-10 mobile:hidden'>
-        <Button type="default" weight='light'>Contato <ArrowUpRight size={24} /></Button>
+        <a target='_blank' href="https://wa.me/5511981419758">
+          <Button type="default" weight='light'>Contato <ArrowUpRight size={24} /></Button>
+        </a>
       </div>
     </div>
   </header>;
