@@ -1,61 +1,85 @@
-🚀 Visão Geral
-Este projeto é o meu portfólio pessoal, onde exibo meus projetos, habilidades e experiências. Para sua construção, eu usei:
+# 🚀 Portfólio Pessoal
 
-React: Para a construção da interface.
+## Visão Geral
 
-Vite: Ferramenta de build rápida para desenvolvimento moderno.
+Este projeto é o meu portfólio pessoal, onde exibo meus projetos, habilidades e experiências. Para sua construção, utilizei:
 
-TypeScript: Adiciona tipagem estática ao JavaScript para melhorar a qualidade do código.
+- **React**: Para a construção da interface.
+- **Vite**: Ferramenta de build rápida para desenvolvimento moderno.
+- **TypeScript**: Adiciona tipagem estática ao JavaScript, melhorando a qualidade do código.
+- **Tailwind CSS**: Framework CSS utilitário para estilização rápida e responsiva.
+- **Prismic CMS**: CMS headless para gerenciamento de conteúdo dinâmico.
 
-Tailwind CSS: Framework CSS utilitário para estilização rápida e responsiva.
+---
 
-Prismic CMS: CMS headless para gerenciamento de conteúdo dinâmico.
+## 📦 Instalação
 
-📦 Instalação
 Para rodar este projeto localmente, siga os passos abaixo:
 
-Clone o repositório:
+1. Clone o repositório:
 
-bash
-Copy
-git clone https://github.com/Dragg-io/portfolio.git
-Navegue até o diretório do projeto:
+   ```bash
+   git clone https://github.com/Dragg-io/portfolio.git
+   ```
 
-bash
-Copy
-cd seu-portfolio
-Instale as dependências:
+2. Navegue até o diretório do projeto:
 
-Inicie o servidor de desenvolvimento:
+   ```bash
+   cd seu-portfolio
+   ```
 
-bash
-Copy
-npm run dev
-O projeto estará disponível em http://localhost:3000.
+3. Instale as dependências:
 
-🎨 Estrutura do Projeto
+   ```bash
+   npm install
+   ```
+
+4. Inicie o servidor de desenvolvimento:
+   ```bash
+   npm run dev
+   ```
+
+O projeto estará disponível em [http://localhost:3000](http://localhost:3000).
+
+---
+
+## 🎨 Estrutura do Projeto
+
 Aqui está uma visão geral da estrutura do projeto:
 
-Copy
+```
 seu-portfolio/
-├── public/ # Arquivos estáticos (imagens, favicon, etc.)
+├── public/       # Arquivos estáticos (imagens, favicon, etc.)
 ├── src/
-│ ├── app/ # Arquivos do projeto.
-│ │ ├── elements/ # Componentes de baixa complexidade, que vão compor outros componentes, botões, logos, etc.
-│ │ ├── layouts/ # Componentes para definições de layout geral, footers e headers serão inclusos aqui.
-│ │ ├── modules/ # Componentes complexos que farão parte da composição do site como um todo.
-│ │ ├── styles/ # Arquivos de estilo.
-│ │ ├── templates/ # Páginas do site, as estruturas que definem o que o usuário vê.
-│ ├── pages/ # Páginas do site
+│   ├── app/      # Arquivos do projeto
+│   │   ├── elements/  # Componentes de baixa complexidade (botões, logos, etc.)
+│   │   ├── layouts/   # Componentes para definição de layout geral (footers, headers, etc.)
+│   │   ├── modules/   # Componentes complexos que compõem o site como um todo
+│   │   ├── styles/    # Arquivos de estilo
+│   │   ├── templates/ # Estruturas das páginas do site
+│   ├── pages/         # Páginas do site
+```
 
-🖼️ Tailwind CSS
-O Tailwind CSS foi utilizado para estilizar o projeto de forma rápida e responsiva. Diminuiu muito meu processo de desenvolvimento e me permitiu focar em outras funcionalidades do site.
+---
 
-📝 TypeScript
+## 🖼️ Tailwind CSS
+
+O Tailwind CSS foi utilizado para estilizar o projeto de forma rápida e responsiva. Ele reduziu significativamente o tempo de desenvolvimento e permitiu que eu focasse em outras funcionalidades do site.
+
+---
+
+## 📝 TypeScript
+
 O TypeScript foi utilizado para adicionar tipagem estática ao projeto, melhorando a segurança e a manutenção do código.
 
-🌟 Desafio de destaque
-Para esse projeto, acredito que o destaque seja a solução para listagens, é simples e direta ao ponto, permite uma grande flexibilidade ao listar diferentes componentes e há bastante espaço para melhorias e implementações mais profundas, como por exemplo filtros e pesquisas integradas a listagem.
+---
 
-📧 Contato
-Se você tiver alguma dúvida ou quiser entrar em contato, sinta-se à vontade para me enviar um e-mail: lucaspedrodeveloper@gmail.com
+## 🌟 Desafio de Destaque
+
+O destaque deste projeto é a solução para listagens. Ela é simples e direta ao ponto, permitindo grande flexibilidade ao listar diferentes componentes. Além disso, há bastante espaço para melhorias, como a implementação de filtros e pesquisas integradas à listagem.
+
+---
+
+## 📧 Contato
+
+Se você tiver alguma dúvida ou quiser entrar em contato, sinta-se à vontade para me enviar um e-mail: [lucaspedrodeveloper@gmail.com](mailto:lucaspedrodeveloper@gmail.com)
